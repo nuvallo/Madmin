@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-browser-router";
-import { Dashboard } from "./Components/Dashboard";
+import { Dashboard } from "./Components/Dashboard/Dashboard";
 import { Login } from "./Components/Login";
 import ProtectedRoute from "./Components/ProtectedRoute";
 import "./App.css";
