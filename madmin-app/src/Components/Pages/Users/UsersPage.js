@@ -1,7 +1,7 @@
 import React from "react";
-import { Navigation } from "../Navigation/Navigation";
+import { Navigation } from "../../Navigation/Navigation";
 import { Users } from "./Users";
-import { Footer } from "../Navigation/Footer";
+import { Footer } from "../../Navigation/Footer";
 export const UsersPage = () => {
   return (
     <div>

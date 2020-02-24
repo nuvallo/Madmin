@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-browser-router";
 
 export const Posts = () => {
   return (
@@ -23,9 +24,9 @@ export const Posts = () => {
                       <td>Web Development</td>
                       <td>Jan 1, 2018</td>
                       <td>
-                        <a href="details.html" className="btn blue lighten-2">
+                        <Link className="btn blue lighten-2" to="/details">
                           Details
-                        </a>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -33,49 +34,9 @@ export const Posts = () => {
                       <td>Graphic Design</td>
                       <td>Jan 2, 2018</td>
                       <td>
-                        <a href="details.html" className="btn blue lighten-2">
+                        <Link className="btn blue lighten-2" to="/details">
                           Details
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Post Three</td>
-                      <td>Web Development</td>
-                      <td>Jan 5, 2019</td>
-                      <td>
-                        <a href="details.html" className="btn blue lighten-2">
-                          Details
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Post Four</td>
-                      <td>Tech Gadgets</td>
-                      <td>Jan 31, 2018</td>
-                      <td>
-                        <a href="details.html" className="btn blue lighten-2">
-                          Details
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Post Five</td>
-                      <td>Logo Design</td>
-                      <td>Jan 25, 2018</td>
-                      <td>
-                        <a href="details.html" className="btn blue lighten-2">
-                          Details
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Post Six</td>
-                      <td>Software Devlopment</td>
-                      <td>Jan 9, 2019</td>
-                      <td>
-                        <a href="details.html" className="btn blue lighten-2">
-                          Details
-                        </a>
+                        </Link>
                       </td>
                     </tr>
                   </tbody>

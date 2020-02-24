@@ -1,12 +1,13 @@
 import React from "react";
 import { Route, Switch } from "react-browser-router";
 import { Dashboard } from "./Components/Dashboard/Dashboard";
-import { Login } from "./Components/Login";
-import ProtectedRoute from "./Components/ProtectedRoute";
-import { PostPage } from "./Components/Pages/PostPage";
-import { CategoryPage } from "./Components/Pages/CategoryPage";
-import { CommentPage } from "./Components/Pages/CommentPage";
-import { UsersPage } from "./Components/Pages/UsersPage";
+import { Login } from "./Components/Pages/Login/Login";
+import ProtectedRoute from "./Components/Pages/Login/ProtectedRoute";
+import { PostPage } from "./Components/Pages/Posts/PostPage";
+import { CategoryPage } from "./Components/Pages/Categories/CategoryPage";
+import { CommentPage } from "./Components/Pages/Comments/CommentPage";
+import { UsersPage } from "./Components/Pages/Users/UsersPage";
+import { Details } from "./Components/Pages/Posts/Details";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/categories" component={CategoryPage} />
         <Route path="/comments" component={CommentPage} />
         <Route path="/users" component={UsersPage} />
+        <Route path="/details" component={Details} />
       </Switch>
     </div>
   );

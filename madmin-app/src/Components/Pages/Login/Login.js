@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { axiosWithAuth } from "../utils/axiosWithAuth";
-import { LoginNavigation } from "./Navigation/LoginNavigation";
+import { axiosWithAuth } from "../../../utils/axiosWithAuth";
+import { LoginNavigation } from "../../Navigation/LoginNavigation";
 
 export const Login = props => {
   const [cred, setCred] = useState({
