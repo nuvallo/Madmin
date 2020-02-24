@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Link } from "react-browser-router";
+import { GlobalContext } from "../../../Context/GlobalState";
 
 export const Categories = () => {
+  const { categories } = useContext(GlobalContext);
+
   return (
     <section className="section section-categories grey lighten-4">
       <div className="container">
@@ -17,42 +21,19 @@ export const Categories = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>Web Development</td>
-                      <td>Jan 1, 2018</td>
-                      <td>
-                        <a href="details.html" className="btn blue lighten-2">
-                          Details
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Graphic Design</td>
-                      <td>Jan 2, 2018</td>
-                      <td>
-                        <a href="details.html" className="btn blue lighten-2">
-                          Details
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Tech Gadgets</td>
-                      <td>Jan 5, 2019</td>
-                      <td>
-                        <a href="details.html" className="btn blue lighten-2">
-                          Details
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Other</td>
-                      <td>Jan 31, 2018</td>
-                      <td>
-                        <a href="details.html" className="btn blue lighten-2">
-                          Details
-                        </a>
-                      </td>
-                    </tr>
+                    {categories.map(category => {
+                      return (
+                        <tr>
+                          <td>{category.title}</td>
+                          <td>{category.date_created}</td>
+                          <td>
+                            <Link to="/details" className="btn blue lighten-2">
+                              Details
+                            </Link>
+                          </td>
+                        </tr>
+                      );
+                    })}
                   </tbody>
                 </table>
               </div>
