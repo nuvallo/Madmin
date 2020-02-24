@@ -7,20 +7,23 @@ const initialState = {
   comments: [
     {
       image_url: "",
-      comment_text: ""
+      comment_text: "Test Comment",
+      id: ""
     }
   ],
   categories: [
     {
       title: "Test",
-      date_created: "1-23-20"
+      date_created: "1-23-20",
+      id: ""
     }
   ],
   posts: [
     {
       title: "",
       category: "",
-      date_created: ""
+      date_created: "",
+      id: ""
     }
   ]
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-browser-router";
-import { Dashboard } from "./Components/Dashboard/Dashboard";
+import { Dashboard } from "./Components/Pages/Dashboard/Dashboard";
 import { Login } from "./Components/Pages/Login/Login";
 import ProtectedRoute from "./Components/Pages/Login/ProtectedRoute";
 import { PostPage } from "./Components/Pages/Posts/PostPage";
