@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigation } from "./Navigation";
+import { Navigation } from "./Navigation/Navigation";
 import { Footer } from "./Footer";
 import { Stats } from "./Stats";
 import { Vistors } from "./Vistors";
