@@ -20,10 +20,10 @@ export const Navigation = () => {
               <Link to="/posts">Posts</Link>
             </li>
             <li>
-              <a href="categories.html">Categories</a>
+              <Link to="/categories">Categories</Link>
             </li>
             <li>
-              <a href="comments.html">Comments</a>
+              <Link to="/comments">Comments</Link>
             </li>
             <li>
               <a href="users.html">Users</a>

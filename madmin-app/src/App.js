@@ -4,7 +4,8 @@ import { Dashboard } from "./Components/Dashboard/Dashboard";
 import { Login } from "./Components/Login";
 import ProtectedRoute from "./Components/ProtectedRoute";
 import { PostPage } from "./Components/Pages/PostPage";
-
+import { CategoryPage } from "./Components/Pages/CategoryPage";
+import { CommentPage } from "./Components/Pages/CommentPage";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
         <ProtectedRoute exact path="/protected" component={Dashboard} />
         <Route exact path="/" component={Login} />
         <Route path="/posts" component={PostPage} />
+        <Route path="/categories" component={CategoryPage} />
+        <Route path="/comments" component={CommentPage} />
       </Switch>
     </div>
   );
