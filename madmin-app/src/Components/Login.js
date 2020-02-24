@@ -12,14 +12,14 @@ export const Login = () => {
                 <div className="input-field">
                   <i className="material-icons prefix">email</i>
                   <input type="email" id="email" />
-                  <label className="white-text" for="email">
+                  <label className="white-text" htmlFor="email">
                     Email Address
                   </label>
                 </div>
                 <div className="input-field">
                   <i className="material-icons prefix">lock</i>
-                  <input className="password" id="password" />
-                  <label className="white-text" for="password">
+                  <input type="password" className="password" id="password" />
+                  <label className="white-text" htmlFor="password">
                     password
                   </label>
                 </div>
