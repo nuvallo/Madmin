@@ -1,6 +1,10 @@
 import React from "react";
 
 export const Footer = () => {
+  const onPress = () => {
+    console.log("this was pressed");
+  };
+
   return (
     <>
       <footer className="section blue darken-2 white-text center">
@@ -8,7 +12,7 @@ export const Footer = () => {
       </footer>
 
       <div className="fixed-action-btn">
-        <a className="btn-floating btn-large red">
+        <a onClick={onPress} className="btn-floating btn-large red">
           <i className="material-icons">add</i>
         </a>
         <ul>
