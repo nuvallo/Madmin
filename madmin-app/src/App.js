@@ -6,6 +6,7 @@ import ProtectedRoute from "./Components/ProtectedRoute";
 import { PostPage } from "./Components/Pages/PostPage";
 import { CategoryPage } from "./Components/Pages/CategoryPage";
 import { CommentPage } from "./Components/Pages/CommentPage";
+import { UsersPage } from "./Components/Pages/UsersPage";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/posts" component={PostPage} />
         <Route path="/categories" component={CategoryPage} />
         <Route path="/comments" component={CommentPage} />
+        <Route path="/users" component={UsersPage} />
       </Switch>
     </div>
   );

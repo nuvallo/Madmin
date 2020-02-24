@@ -26,7 +26,7 @@ export const Navigation = () => {
               <Link to="/comments">Comments</Link>
             </li>
             <li>
-              <a href="users.html">Users</a>
+              <Link to="/users">Users</Link>
             </li>
           </ul>
         </div>
