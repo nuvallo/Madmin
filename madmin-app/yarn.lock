@@ -8275,6 +8275,11 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
+react-browser-router@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/react-browser-router/-/react-browser-router-2.1.2.tgz#06b53049f85d0311efd9f1dada52eaa7e14d8f7e"
+  integrity sha512-6Axukud54NdHMgQEkVDKLPG6bawcu34YVjHdvlCCSehYH1NRGiiDHnhD13J+zkGyAvY/TWEkLGGBUflwu1XkgQ==
+
 react-dev-utils@^10.2.0:
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.2.0.tgz#b11cc48aa2be2502fb3c27a50d1dfa95cfa9dfe0"
